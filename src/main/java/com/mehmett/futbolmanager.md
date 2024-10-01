@@ -1,0 +1,1 @@
+![Drawing 2024-09-22 11.31.19.excalidraw.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2FUsers%2Femine%2FOneDrive%2FMasa%FCst%FC%2FDrawing%202024-09-22%2011.31.19.excalidraw.png)

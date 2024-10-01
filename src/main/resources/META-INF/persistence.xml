@@ -1,0 +1,55 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+
+    <persistence-unit name="Futbol_ManagerV2">
+
+        <class>com.mehmett.entity.Season</class>
+        <class>com.mehmett.entity.League</class>
+        <class>com.mehmett.entity.Manager</class>
+        <class>com.mehmett.entity.Player</class>
+        <class>com.mehmett.entity.Stadium</class>
+        <class>com.mehmett.entity.Match</class>
+        <class>com.mehmett.entity.Team</class>
+        <class>com.mehmett.entity.Fixture</class>
+        <class>com.mehmett.entity.TransferOffer</class>
+        <class>com.mehmett.entity.ContractOffer</class>
+        <class>com.mehmett.entity.Stats</class>
+        <class>com.mehmett.entity.MatchStats</class>
+        <class>com.mehmett.entity.Transfer</class>
+        <class>com.mehmett.entity.Gambler</class>
+        <class>com.mehmett.entity.Bet</class>
+        <class>com.mehmett.entity.BetOdds</class>
+        <class>com.mehmett.entity.BetSelectionMap</class>
+
+
+
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="org.postgresql.Driver" />
+
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:postgresql://localhost:5432/FutbolManagerHibernateDB" />
+
+            <property name="jakarta.persistence.jdbc.user"
+                      value="postgres" />
+
+            <property name="jakarta.persistence.jdbc.password"
+                      value="ROOT" />
+
+            <property name="hibernate.show_sql"
+                      value="false" />
+
+            <property name="hibernate.format_sql" value="false"/>
+            <property name="hibernate.use_sql_comments" value="false"/>
+
+            <property name="hibernate.hbm2ddl.auto"
+                      value="create" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
